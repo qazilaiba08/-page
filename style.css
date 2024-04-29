@@ -1,0 +1,33 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(image\ 152.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    z-index: -1;
+}
+#navbarSupportedContent{
+    padding-left: 65%;
+    font-weight: 500;
+font-size: 1rem;
+}
+
+.con{
+    padding-top: 10%;
+    padding-left: 15%;
+}
+@media only screen and(max-width="850px"){
+    #navbarSupportedContent{
+        padding: 0;
+        margin:auto;
+        font-weight: 500;
+    font-size: 1rem;
+    }
+    
+    
+}
